@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.7;
+	color: #777;
+	/* padding: 30px; */
+}
+
+body h2 {
+  color: #22A39F;
+  font-size: 54px;
+}
+
+hr {
+  margin: 40px 0px;
+  border-color: #727878;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+  border-top: 1px solid #eee;
+}
+
+header {
+	height: 100vh;
+	background-image: linear-gradient(to right bottom, #22A39F,rgba(34, 163, 159, 0.795)), url(img-03.jpg);
+	background-size: cover;
+	background-position: fixed;		
+}
+
+header .bg-text {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+}
+
+header .bg-text > h1 {
+  font-size: 60px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #FFFFFF;
+  border-bottom-color: #FFFFFF;
+  display: inline-block;
+}
+
+header .bg-text > p {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+/* PROFILE SECTION */
+section.profile, section#experiences, section#abilities, section#projects, section#contact {
+  max-width: 100%;
+  padding: 40px 150px;
+}
+
+section.profile > h2 {
+  font-weight: 300px;
+  text-align: center;
+}
+
+section.profile > p {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 300px;
+  text-align: center;
+}
+
+section.profile .content {
+  display: flex;
+  justify-content: center;
+}
+
+section.profile .cont {
+  width: 33.33%;
+  margin: 0 10px;
+  padding: 0 15px;
+  text-align: justify;
+}
+
+section.profile .cont > h3 {
+  margin: 20px 0;
+}
+
+/* Experience Section */
+section#experiences {
+  background: rgb(218, 215, 206);
+}
+
+section#experiences .header-content, section#abilities .header-content {
+  text-align: center;
+}
+
+section#experiences .education h3, section#experiences .careers h3, section#abilities h3 {
+  margin: 20px 0;
+  font-size: 28px;
+  color: #22A39F;
+}
+
+section#experiences .first-row {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+section#experiences .first-row-left {
+  width: 33.33%;
+}
+
+section#experiences .first-row-right {
+  width: 66.67%;
+}
+
+
+/* Abilities Secton */
+section#abilities h3 {
+  margin: 20px 0;
+}
+
+section#abilities .skills {
+  display: flex;
+}
+
+section#abilities .skills .skills-list, section#abilities .tools .tools-list {
+  width: 50%;
+}
+
+section#abilities .lang-list, section#abilities .tools {
+  display: flex;
+  justify-content: space-between;
+}
+
+section#abilities .tools .tools-list {
+  width: 50%;
+}
+
+
+/* Projects Section */
+section#projects  {
+  background: rgba(243, 239, 224, 0.856);
+}
+
+section#projects .project {
+  display: flex;
+  justify-content: space-between;
+}
+
+section#projects .project .project-item {
+  width: 50%;
+  height: 100px;
+  margin: 0 10px;
+  background: gray;
+}
+
+section#projects h2, section#projects p {
+  text-align: center;
+}
+
+/* Contact Section */
+section#contact h2, section#contact p {
+  text-align: center;
+}
+
+section#contact #social-list {
+
+}
